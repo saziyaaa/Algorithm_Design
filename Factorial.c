@@ -6,15 +6,14 @@ int factorial(int n)
     return 1;
    }
   else
-  {
+   {
    return n*factorial(n-1);
-  }
+   }
 }
 
 int main()
 {
    int factorialValue = factorial(5);
-
    printf("%d", factorialValue);
 
    return 0;
